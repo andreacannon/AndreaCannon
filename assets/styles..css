@@ -1,0 +1,142 @@
+
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Element selectors */
+h1 {
+    color: #ffffff;
+    font-size: 400px;
+}
+
+body {
+    background-color: #21032f;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Class selectors */
+.header { 
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #270437;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: orange;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* allows navigation to span in a row */
+.navigation {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px; /* adds space to pad the navigation bar */
+  }
+
+.image{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("ImageAddyHere");
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+}
+
+.bene {
+    margin-bottom: 32px;
+    color: #270437;
+}
+
+.bene h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bene img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.Portfolio {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dbcdba;
+    color: #270437;
+}
+
+.Portfolio img {
+    max-height: 200px;
+}
+
+.Portfolio h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
