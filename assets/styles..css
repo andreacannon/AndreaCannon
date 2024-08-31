@@ -126,6 +126,8 @@ p {
 
 .Portfolio img {
     max-height: 200px;
+    max-width: 100%; /* Make the image fit within the div */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .Portfolio h2 {
