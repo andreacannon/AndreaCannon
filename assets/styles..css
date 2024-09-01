@@ -115,22 +115,44 @@ p {
     max-width: 150px;
 }
 
+
+working {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dbcdba;
+    color: #270437;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#About {
+    overflow: hidden;
+    max-width: 100%; /* Ensures the content doesn't overflow the container */
+  
+}
+
+#About img {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 1 auto;
+}
+
 .Portfolio {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #dbcdba;
     color: #270437;
+    display: block;
     
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
 }
 
 .Portfolio img {
     max-height: 200px;
     max-width: 100%; /* Make the image fit within the div */
-    
     height: 100%;
 }
 
@@ -150,4 +172,65 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation a {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .Portfolio, .about {
+        text-align: center;
+    }
+
+    .Portfolio img, .about img {
+        max-width: 100%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .contact img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .navigation a {
+        font-size: 14px;
+    }
+
+    .Portfolio img, .about img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact img {
+        width: 30px;
+    }
+}
+
+a:hover { /* adds underline text decoration upon hover */
+    text-decoration: underline;
+}
+
+#working img:hover { /* adds glow around image upon hover */
+    box-shadow: 0 0 15px #961b1bcc;
+    transition: box-shadow 0.3s ease-in-out;
 }
