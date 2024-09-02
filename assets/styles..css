@@ -230,7 +230,7 @@ a:hover { /* adds underline text decoration upon hover */
     text-decoration: underline;
 }
 
-#working img:hover { /* adds glow around image upon hover */
+#screenshot:hover { /* adds glow around image link upon hover */
     box-shadow: 0 0 15px #961b1bcc;
     transition: box-shadow 0.3s ease-in-out;
 }
