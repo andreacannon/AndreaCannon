@@ -9,3 +9,4 @@ Contact Me: Find ways to get in touch with me via email, GitHub, and LinkedIn.
 ### Deployed site:
 https://andreacannon.github.io/AndreaCannon/
 
+![Webpage Screenshot](assets/screenshot.png)
