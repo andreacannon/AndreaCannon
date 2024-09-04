@@ -71,16 +71,6 @@ p {
     background-position: center;
 }
 
-.about {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
@@ -116,7 +106,7 @@ p {
 }
 
 
-working {
+/* working {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -125,19 +115,21 @@ working {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-}
+} */
 
-#About {
+#About, #working {
     overflow: hidden;
     max-width: 100%; /* Ensures the content doesn't overflow the container */
   
 }
 
-#About img {
+#About img, #working img {
     max-width: 100%;
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 1 auto;
+    float: left;
+    margin-right: 25px;
 }
 
 .Portfolio {
@@ -147,7 +139,7 @@ working {
     background-color: #dbcdba;
     color: #270437;
     display: block;
-    
+    outline: 1px solid white;
 }
 
 .Portfolio img {
@@ -172,6 +164,20 @@ working {
 
 .footer h2 {
     font-size: 20px;
+}
+
+
+#work-area {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    padding-top: 30px;
+}
+
+#screenshot{
+    max-height: 275px;
+    max-width: 100%; /* Make the image fit within the div */
+    height: 100%;
 }
 
 /* Responsive Styles */
