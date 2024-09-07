@@ -172,12 +172,21 @@ p {
     min-height: 50px;
     display: flex;
     padding-top: 30px;
+    gap: 15px; /* Adds spacing between items */
+}
+
+.work-item {
+    flex: 1; /* Default size for other items */
 }
 
 #screenshot{
     max-height: 275px;
     max-width: 100%; /* Make the image fit within the div */
-    height: 100%;
+    height: auto;
+}
+
+.work-item:nth-child(1) {
+    flex: 2; /* Make the first work item larger */
 }
 
 /* Responsive Styles */
@@ -204,6 +213,10 @@ p {
         max-width: 100%;
     }
 
+    #screenshot {
+        max-height: 300px; /* Adjust size for smaller screens */
+    }
+
     .contact {
         text-align: center;
     }
@@ -225,6 +238,10 @@ p {
     .Portfolio img, .about img {
         width: 100%;
         max-width: 100%;
+    }
+
+    #screenshot {
+        max-height: 250px; /* Further adjustment for very small screens */
     }
 
     .contact img {
